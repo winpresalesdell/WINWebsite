@@ -3,11 +3,9 @@
 !-->
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="StyleSheet.css">
 <head>
-    <title>WinPresales</title>
+    <title>WINPresales</title>
     <meta charset="UTF-8">
-    <script src="JavaScript.js"></script>
 
     <!-- Include the latest version of Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,64 +16,99 @@
 
 </head>
 <body>
-    <div class="shadow sticky-top" style="background-color: white">
-        <div class="d-flex bd-highlight container-lg">
+	<div style="background-color: #0076ce">
+        	<div class="d-flex bd-highlight container-lg">
+			<img class="align-self-center" src="DAMResources\delltech_logo_prm_blk_rgb-proof.png" width ="160" height ="22">
+            		<ul class="nav nav-pills justify-content-end flex-fill bd-highlight">
 
-            <label class="fs-3 flex-fill bd-highlight" style="color: #3287c1">&nbsp&nbspCareers</label>
-            <ul class="nav nav-pills justify-content-end flex-fill bd-highlight">
+                	<!-- Join Our Talent Network -->
+			<img class="align-self-center" src="DAMResources\mail_white-64px-319x319.png" width ="30" height ="30">
+                	<div>
+                    		<li class="nav-item">
+                        		<a class="nav-link justify-content-end" href="https://jobs.dell.com/restart#" tabindex="-1" style="color: white">Join Our Talent Network</a>
+                    		</li>
+                	</div>
 
-                <!-- Life at Dell -->
-                <div class="nav-item dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" style="background-color: #3287c1" data-bs-toggle="dropdown" aria-expanded="false">
-                        Life at Dell
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" href="https://jobs.dell.com/how-we-work-and-lead">How We Work and Lead</a></li>
-                        <li><a class="dropdown-item" href="https://jobs.dell.com/who-we-are">Who We Are</a></li>
-                        <li><a class="dropdown-item" href="https://jobs.dell.com/how-we-hire">How We Hire</a></li>
-                        <li><a class="dropdown-item" href="https://jobs.dell.com/faqs">FAQs</a></li>
-                    </ul>
-                </div>
+			<!-- Saved Jobs -->
+			<img class="align-self-center" src="DAMResources\carry-case-white-32px-319x319.png" width ="30" height ="30">
+                	<div>
+                    		<li class="nav-item">
+                        		<a class="nav-link justify-content-end" href="https://jobs.dell.com/saved-jobs" tabindex="-1" style="color: white">Saved Jobs</a>
+                    		</li>
+                	</div>
 
-                <!-- Working at Dell -->
-                <div class="nav-item dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" style="background-color: #3287c1" data-bs-toggle="dropdown" aria-expanded="false">
-                        Life at Dell
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" href="https://jobs.dell.com/why-work-here">Why Work Here</a></li>
-                        <li><a class="dropdown-item" href="https://jobs.dell.com/diversity-and-inclusion">Diversity & Inclusion</a></li>
-                        <li><a class="dropdown-item" href="https://jobs.dell.com/growing-your-career">Growing Your Career</a></li>
-                        <li><a class="dropdown-item" href="https://jobs.dell.com/work-flexibility">Work Flexibility</a></li>
-                    </ul>
-                </div>
+                	<!-- Language -->
+			<img class="align-self-center" src="DAMResources\globe-simple_white-32px-140x100.png" width ="30" height ="30">
+               		<div class="nav-item dropdown">
+                    		<button class="btn btn-secondary dropdown-toggle" type="button" style="background-color: #0076ce" data-bs-toggle="dropdown" aria-expanded="false">
+                      			Language
+                    	</button>
+                	</div>
+            		</ul>
+        	</div>
+    	</div>
+    	<div class="shadow sticky-top" style="background-color: rgba(255,255,255,0.9)">
+        	<div class="d-flex bd-highlight container-lg">
 
-                <!-- Our Opportunities -->
-                <div class="nav-item dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" style="background-color: #3287c1" data-bs-toggle="dropdown" aria-expanded="false">
-                        Life at Dell
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" href="https://jobs.dell.com/students">Students</a></li>
-                        <li><a class="dropdown-item" href="https://jobs.dell.com/internships">Internships</a></li>
-                        <li><a class="dropdown-item" href="https://jobs.dell.com/graduates">Graduates</a></li>
-                        <li><a class="dropdown-item" href="https://jobs.dell.com/global-sales">Global Sales</a></li>
-                        <li><a class="dropdown-item" href="https://jobs.dell.com/military">Military & Veterans</a></li>
-                        <li><a class="dropdown-item" href="https://jobs.dell.com/events">Events</a></li>
-                    </ul>
-                </div>
+            		<label class="fs-3 flex-fill bd-highlight" style="color: #3287c1">Careers</label>
+            		<ul class="nav nav-pills justify-content-end flex-fill bd-highlight">
 
-                <!-- Our Locations -->
-                <div>
-                    <li class="nav-item">
-                        <a class="nav-link justify-content-end" href="https://jobs.dell.com/locations" tabindex="-1" style="color: #3287c1">Our Locations</a>
-                    </li>
-                </div>
-            </ul>
-        </div>
-    </div>
-    <div class="container-lg">
-        <p>Thank you for your interest in the Dell Career ReStart program.
+                		<!-- Life at Dell -->
+                		<div class="nav-item dropdown">
+                    			<button class="btn btn-secondary dropdown-toggle" type="button" style="color: black; background-color: rgba(255,255,255,0.1); border: none" data-bs-toggle="dropdown" aria-expanded="false">
+                        			Life at Dell
+                    			</button>
+                    		<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        		<li><a class="dropdown-item" href="https://jobs.dell.com/how-we-work-and-lead">How We Work and Lead</a></li>
+                        		<li><a class="dropdown-item" href="https://jobs.dell.com/who-we-are">Who We Are</a></li>
+                        		<li><a class="dropdown-item" href="https://jobs.dell.com/how-we-hire">How We Hire</a></li>
+                        		<li><a class="dropdown-item" href="https://jobs.dell.com/faqs">FAQs</a></li>
+                    		</ul>
+                		</div>
+
+                		<!-- Working at Dell -->
+                		<div class="nav-item dropdown">
+                    		<button class="btn btn-secondary dropdown-toggle" type="button" style="color: black; background-color: rgba(255,255,255,0.1); border: none" data-bs-toggle="dropdown" aria-expanded="false">
+                        		Working at Dell
+                    		</button>
+                    		<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        		<li><a class="dropdown-item" href="https://jobs.dell.com/why-work-here">Why Work Here</a></li>
+                        		<li><a class="dropdown-item" href="https://jobs.dell.com/diversity-and-inclusion">Diversity & Inclusion</a></li>
+                        		<li><a class="dropdown-item" href="https://jobs.dell.com/growing-your-career">Growing Your Career</a></li>
+                        		<li><a class="dropdown-item" href="https://jobs.dell.com/work-flexibility">Work Flexibility</a></li>
+                   		</ul>
+                		</div>
+
+                		<!-- Our Opportunities -->
+                		<div class="nav-item dropdown">
+                    		<button class="btn btn-secondary dropdown-toggle" type="button" style="color: black; background-color: rgba(255,255,255,0.1); border: none" data-bs-toggle="dropdown" aria-expanded="false">
+                        		Our Opportunities
+                    		</button>
+                    		<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        		<li><a class="dropdown-item" href="https://jobs.dell.com/students">Students</a></li>
+                        		<li><a class="dropdown-item" href="https://jobs.dell.com/internships">Internships</a></li>
+                        		<li><a class="dropdown-item" href="https://jobs.dell.com/graduates">Graduates</a></li>
+                        		<li><a class="dropdown-item" href="https://jobs.dell.com/global-sales">Global Sales</a></li>
+                        		<li><a class="dropdown-item" href="https://jobs.dell.com/military">Military & Veterans</a></li>
+                        		<li><a class="dropdown-item" href="https://jobs.dell.com/events">Events</a></li>
+                    		</ul>
+                		</div>
+
+                		<!-- Our Locations -->
+                		<div>
+                    		<li class="nav-item">
+                        		<a class="nav-link justify-content-end" href="https://jobs.dell.com/locations" tabindex="-1" style="color: #3287c1">Our Locations</a>
+                    		</li>
+                		</div>
+            		</ul>
+        		</div>
+    		</div>
+	<img src="DAMResources\goupOfPeopleTalking.jpeg" alt="Image">
+	<br>
+	<br>
+    	<div class="container-lg">
+
+        <p>Thank you for your interest in the Dell WINPresales program.
             We are constantly recruiting for new roles.
             If you do not see a role that matches your career experience at this time,
             we’d still like to consider you for future opportunities.
@@ -85,11 +118,11 @@
                     here</a>.
             </strong>
         </p>
-        <h1 style="text-align: center; color: #3287c1">ReStart Your Career at Dell</h1>
-        <p><strong>Dell Career ReStart welcomes participants into full time,
+        <h1 style="text-align: center; color: #3287c1">WINPresales With Dell</h1>
+        <p><strong>Dell WINPresales welcomes participants into full time,
             benefited positions, through a supportive, structured program that will help accelerate
             your transition back into the workforce.</strong></p>
-        <img src="QuotePic.PNG" class="mx-auto d-block" width ="900">
+        <img src="DAMResources\QuotePic.PNG" class="mx-auto d-block" width ="900">
         <h8><br><b>At Dell, we recognize that life is bigger than work; sometimes life calls even the most committed
             professionals temporarily away from their career. Whether you left the workforce to start a family, care
             for aging parents, complete graduate study, or another reason unique to you, when you’re ready to return
@@ -105,7 +138,7 @@
                     onclick="window.location.href='https://tbcdn.talentbrew.com/company/375/9195/content/culture-code-infograph.pdf';">Learn More About Our Culture Code</button>
         </div>
         <br>
-        <img src="benefitsPic.jpg" class="mx-auto d-block" width ="900">
+        <img src="DAMResources\benefitsPic.jpg" class="mx-auto d-block" width ="900">
         <br>
         <div class="col-md-12 text-center">
             <button type="button" class="text-center btn btn-primary flex-fill bd-highlight" style="background-color: #3287c1"
