@@ -103,7 +103,7 @@
             		</ul>
         		</div>
     		</div>
-	<img src="DAMResources\goupOfPeopleTalking.jpeg" alt="Image">
+	<img class="img-fluid w-100" src="DAMResources\goupOfPeopleTalking.jpeg" alt="Image">
 	<br>
 	<br>
     	<div class="container-lg">
