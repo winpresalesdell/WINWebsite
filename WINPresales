@@ -4,9 +4,9 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>WINPresales</title>
+		<title>WinPresales</title>
     		<meta charset="UTF-8">
-		<link rel="shortcut icon" href="DAMResources\tabIcon.png" type="image/x-icon" />
+		<link rel="shortcut icon" sizes="114x114" href="DAMResources\tabIcon.png" type="image/x-icon"/>
 
     		<!-- Include the latest version of Bootstrap -->
     		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -49,8 +49,8 @@
 		<!-- Sticky White Bar -->
 		<div class="shadow sticky-top" style="background-color: rgba(255,255,255,0.9)">
         		<div class="d-flex bd-highlight container-lg">
-				<button class="tablink fs-3" onclick="openTab('CareerTab', this)" id="defaultOpen" style="color: #3287c1; border: none;" width="50">Carreer</button>
-				<button class="tablink fs-3" onclick="openTab('AboutTab', this)" id="defaultOpen" style="color: #3287c1; border: none;" width="50">About</button>
+				<button class="tablink fs-3" onclick="openTab('CareerTab', this)" id="defaultOpen" style="color: #3287c1; border: none;" width="50">About </button>
+				<button class="tablink fs-3" onclick="openTab('AboutTab', this)" id="defaultOpen" style="color: #3287c1; border: none;" width="50">Resources </button>
             			<ul class="nav nav-pills justify-content-end flex-fill bd-highlight">
 
                 			<!-- Life at Dell -->
@@ -110,59 +110,92 @@
             				we’d still like to consider you for future opportunities.
             				If you are interested in hearing from us please click
             				<strong>
-                				<a href="https://dell.wd1.myworkdayjobs.com/ExternalNonPublic/job/Remote---Texas-United-States/Dell-Career-Restart_R072773">here</a>.
+                				<a href="https://dell.to/wise">here</a>.
             				</strong>
         			</p>
-
-        			<h1 style="text-align: center; color: #3287c1">WINPresales With Dell</h1>
-
-        			<p><strong>Dell WINPresales welcomes participants into full time,
-            				benefited positions, through a supportive, structured program that will help accelerate
-            				your transition back into the workforce.</strong>
-				</p>
-
-        			<img src="DAMResources\QuotePic.PNG" class="mx-auto d-block" width ="900">
-        			<h8>
-					<br>
-					<b>At Dell, we recognize that life is bigger than work; sometimes life calls even the most committed
-            					professionals temporarily away from their career. Whether you left the workforce to start a family, care
-            					for aging parents, complete graduate study, or another reason unique to you, when you’re ready to return
-            					to work, Dell is ready for you!
-					</b>
-					<br>
-					<br>
-				</h8>
-
         			<br>
+        			<br>
+        			<img class="img-fluid w-100" src="DAMResources\HowToExcell.png">
+        			<br>
+        			<br>
+        			<br>
+        			<img class="img-fluid w-100" src="DAMResources\WINSTORIES.gif">
+        			<br>
+        			<br>
+        			<br>
+
         			<div class="col-md-12 text-center">
             				<button type="button" class="text-center btn btn-primary flex-fill bd-highlight" style="background-color: #3287c1"
-                    				onclick="window.location.href='https://blog.dell.com/en-us/resurrecting-your-career-just-keep-talking/';">Advice From Dell ReStarters</button>
+                    				onclick="window.location.href='https://tbcdn.talentbrew.com/company/375/9195/content/reentry_evp_infographic.jpg';">See Our Employee Value Proposition</button>
             				<button type="button" class="text-center btn btn-primary flex-fill bd-highlight" style="background-color: #3287c1"
                     				onclick="window.location.href='https://tbcdn.talentbrew.com/company/375/9195/content/culture-code-infograph.pdf';">Learn More About Our Culture Code</button>
         			</div>
         			<br>
-        			<img src="DAMResources\MoonshotGoal.png" class="mx-auto d-block" width ="900">
+				<img class="img-fluid w-100" src="DAMResources\MoonshotGoal.png">
         			<br>
-        			<div class="col-md-12 text-center">
-            				<button type="button" class="text-center btn btn-primary flex-fill bd-highlight" style="background-color: #3287c1"
-                    				onclick="window.location.href='https://tbcdn.talentbrew.com/company/375/9195/content/career-restart-tips.jpg';">Tips to ReStart Your Career</button>
-            				<button type="button" class="text-center btn btn-primary flex-fill bd-highlight" style="background-color: #3287c1"
-                    				onclick="window.location.href='https://tbcdn.talentbrew.com/company/375/9195/content/reentry_evp_infographic.jpg';">See Our Employee Value Proposition</button>
-        			</div>
         			<br>
-	
-        			<iframe height="450" width="800" class="mx-auto d-block"src="https://www.youtube.com/embed/MVIDtDyGih4"></iframe>
         			<br>
-        			<iframe height="450" width="800" class="mx-auto d-block"src="https://www.youtube.com/embed/QcPMJ8Wa8P4"></iframe>
 	
 			</div>
 		</div>
 
 		<div id="AboutTab" class="tabcontent">
+			<br>
 			<div class="container-lg">
-				<h1>More to come</h1>
-  				<p>We havent implmented this section yet.</p> 
+				<div class="row">
+					<div class="col-sm">
+  						<p> 
+							<strong style="color: #3287c1">Women In Action (WIA)</strong>
+							<iframe height="450" width="800" class="mx-auto d-block"src="https://www.youtube.com/embed/MVIDtDyGih4"></iframe>
+							<br>
+							<br>
+							<a href="https://www.linkedin.com/pulse/gender-diversity-presales-alison-pate/?trackingId=xtS0ZWuZjOe9MOk94HDeKQ%3D%3D"><strong style="color: #3287c1">Gender diversity in Presales</strong></a>
+							<img class="img-fluid w-100" src="DAMResources\GenderDivInPresales.png">
+							<br>
+							<br>
+							<a href="https://www.linkedin.com/pulse/insights-mismatch-female-recruitment-within-presales-malak-saleh/?trackingId=QKOuPEYZ%2BYO0GOVUdCq9dw%3D%3D"><strong style="color: #3287c1">Insights into the Mismatch in Female Recruitment within PreSales</strong></a>
+							<img class="img-fluid w-100" src="DAMResources\GPWIA.png">
+						</p>
+					</div>
+					<div class="col-sm">
+						<br>
+						<img class="img-fluid w-100" src="DAMResources\RotatingCube.gif">
+					</div>
+				</div>
+				<h1 style="color: #3287c1">Other Helpful Links</h1>
+				<div class="row">
+					<div class="col-sm">
+						<br>
+						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight" style="background-color: #3287c1; width:400px"
+                    					onclick="window.location.href='https://www.presalescollective.com/';">The Presales Collective</button>
+						<br>
+						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight" style="background-color: #3287c1; width:400px"
+                    					onclick="window.location.href='https://www.presalescollective.com/';">Check Out Our Blog</button>
+						<br>
+					</div>
+					<div class="col-sm">
+  						<br>
+						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight" style="background-color: #3287c1; width:400px"
+                    					onclick="window.location.href='https://home.pearsonvue.com/ism';">ISM Certification</button>
+						<br>
+						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight" style="background-color: #3287c1; width:400px"
+                    					onclick="window.location.href='https://docs.microsoft.com/en-us/learn/azure/';">Azure Certification</button>
+						<br>
+					</div>
+					<div class="col-sm">
+						<br>
+						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight" style="background-color: #3287c1; width:400px"
+                    					onclick="window.location.href='https://aws.amazon.com/certification/';">AWS Certification</button>
+						<br>
+						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight" style="background-color: #3287c1; width:400px"
+                    					onclick="window.location.href='https://www.linkedin.com/company/nationalsse/';">NSSE Group</button>
+						<br>
+					</div>
+				</div>
 			</div>
+			<br>
+			<br>
+			<br>
 		</div>
 
 		<script>
@@ -175,10 +208,12 @@
   				tablinks = document.getElementsByClassName("tablink");
   				for (i = 0; i < tablinks.length; i++) {
     					tablinks[i].style.backgroundColor = "white";
+					tablinks[i].disabled = false;
   				}
   				document.getElementById(tabName).style.display = "block";
   				<!--elmnt.style.backgroundColor = rgba(255,255,255,0.1);-->
   				elmnt.style.backgroundColor = "#F1F1F1";
+				elmnt.disabled = true;
 			}
 			// Get the element with id="defaultOpen" and click on it
 			document.getElementById("defaultOpen").click();
