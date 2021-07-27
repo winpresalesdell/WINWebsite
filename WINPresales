@@ -53,7 +53,7 @@
 				<button class="tablink fs-3" onclick="openTab('AboutTab', this)" id="defaultOpen" style="color: #3287c1; border: none;" width="50">Resources </button>
             			<ul class="nav nav-pills justify-content-end flex-fill bd-highlight">
 
-                			<!-- Life at Dell --> 
+                			<!-- Life at Dell -->
                 			<div class="nav-item dropdown">
                     				<button class="btn btn-secondary dropdown-toggle" type="button" style="color: black; background-color: rgba(255,255,255,0.1); border: none" data-bs-toggle="dropdown" aria-expanded="false"> Life at Dell </button>
                     				<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -140,9 +140,40 @@
 		</div>
 
 		<div id="AboutTab" class="tabcontent">
-			<br>
 			<div class="container-lg">
-				<div class="row  w-100">
+				<br>
+				<h1 style="color: #3287c1">Other Helpful Links</h1>
+				<div class="row w-100"  style="width:33%; height: 100%;">
+					<div class="col-sm">
+						<br>
+						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight w-100" style="background-color: #3287c1;"
+                    					onclick="window.location.href='https://www.presalescollective.com/';">The Presales Collective</button>
+						<br>
+						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight w-100" style="background-color: #3287c1;"
+                    					onclick="window.location.href='https://www.nationalsse.org/';">NSSE Group</button>
+						<br>
+					</div>
+					<div class="col-sm">
+  						<br>
+						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight w-100" style="background-color: #3287c1;"
+                    					onclick="window.location.href='https://www.linkedin.com/groups/9077453/'">LinkedIn</button>
+						<br>
+						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight w-100" style="background-color: #3287c1;"
+                    					onclick="window.location.href='https://www.instagram.com/winpresales/'">Instagram</button>
+						<br>
+					</div>
+					<div class="col-sm">
+						<br>
+						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight w-100" style="background-color: #3287c1;"
+                    					onclick="window.location.href='https://www.delltechnologies.com/en-us/blog/'">Our Blog</button>
+						<br>
+						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight w-100" style="background-color: #3287c1;"
+                    					onclick="window.location.href='https://dell2.avature.net/presales2020?jobId=47654&source=Social+Media+/+Online&tags=womeninpresalesvideo2020|womeninpresales|derek+morton|rhonda_gordon';">Get In Touch</button>
+						<br>
+					</div>
+				</div>
+			<br>
+				<div class="row  w-100"  style="width:67%;">
 					<div class="col-sm w-100">
   						<p> 
 							<strong style="color: #3287c1">Women In Action (WIA)</strong>
@@ -154,42 +185,13 @@
 							<br>
 							<br>
 							<a href="https://www.linkedin.com/pulse/insights-mismatch-female-recruitment-within-presales-malak-saleh/?trackingId=QKOuPEYZ%2BYO0GOVUdCq9dw%3D%3D"><strong style="color: #3287c1">Insights into the Mismatch in Female Recruitment within PreSales</strong></a>
-							<img class="img-fluid w-100" src="DAMResources\GPWIA.png">
+							<strong style="color: #3287c1">Women in Presales</strong>
+							<iframe height="450" width="800" class="mx-auto d-block"src="https://www.youtube.com/embed/AzR2gdSh_FU"></iframe>
 						</p>
 					</div>
 					<div class="col-sm w-100">
 						<br>
 						<img class="img-fluid" src="DAMResources\RotatingCube.gif">
-					</div>
-				</div>
-				<h1 style="color: #3287c1">Other Helpful Links</h1>
-				<div class="row w-100">
-					<div class="col-sm">
-						<br>
-						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight w-100" style="background-color: #3287c1;"
-                    					onclick="window.location.href='https://www.presalescollective.com/';">The Presales Collective</button>
-						<br>
-						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight w-100" style="background-color: #3287c1;"
-                    					onclick="window.location.href='https://www.presalescollective.com/';">Check Out Our Blog</button>
-						<br>
-					</div>
-					<div class="col-sm">
-  						<br>
-						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight w-100" style="background-color: #3287c1;"
-                    					onclick="window.location.href='https://home.pearsonvue.com/ism';">ISM Certification</button>
-						<br>
-						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight w-100" style="background-color: #3287c1;"
-                    					onclick="window.location.href='https://docs.microsoft.com/en-us/learn/azure/';">Azure Certification</button>
-						<br>
-					</div>
-					<div class="col-sm">
-						<br>
-						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight w-100" style="background-color: #3287c1;"
-                    					onclick="window.location.href='https://aws.amazon.com/certification/';">AWS Certification</button>
-						<br>
-						<button type="button" class="text-center btn btn-primary flex-fill bd-highlight w-100" style="background-color: #3287c1;"
-                    					onclick="window.location.href='https://www.linkedin.com/company/nationalsse/';">NSSE Group</button>
-						<br>
 					</div>
 				</div>
 			</div>
