@@ -53,7 +53,7 @@
 				<button class="tablink fs-3" onclick="openTab('AboutTab', this)" id="defaultOpen" style="color: #3287c1; border: none;" width="50">Resources </button>
             			<ul class="nav nav-pills justify-content-end flex-fill bd-highlight">
 
-                			<!-- Life at Dell -->
+                			<!-- Life at Dell --> 
                 			<div class="nav-item dropdown">
                     				<button class="btn btn-secondary dropdown-toggle" type="button" style="color: black; background-color: rgba(255,255,255,0.1); border: none" data-bs-toggle="dropdown" aria-expanded="false"> Life at Dell </button>
                     				<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
