@@ -5,6 +5,13 @@
 <html lang="en">
 	<head>
 		<title>WinPresales</title>
+		<style>
+    			/* (A) DEFINE FONT FAMILY NAME + WHICH FONT FILE TO USE */
+    			@font-face {
+      				font-family: 'roboto'; /* CAN BE ANYTHING YOU WANT */
+      				src: url('Roboto-Regular.ttf');
+    			}
+    		</style>
     		<meta charset="UTF-8">
 		<link rel="shortcut icon" sizes="114x114" href="DAMResources\tabIcon.png" type="image/x-icon"/>
 
@@ -49,7 +56,7 @@
 		<!-- Sticky White Bar -->
 		<div class="shadow sticky-top" style="background-color: rgba(255,255,255,0.9)">
         		<div class="d-flex bd-highlight container-lg">
-				<button class="tablink fs-3" onclick="openTab('CareerTab', this)" id="defaultOpen" style="color: #3287c1; border: none;" width="50">About </button>
+				<button class="tablink fs-3" onclick="openTab('CareerTab', this)" id="defaultOpen" style="color: #3287c1; border: none;" width="50">About&nbsp</button>
 				<button class="tablink fs-3" onclick="openTab('AboutTab', this)" id="defaultOpen" style="color: #3287c1; border: none;" width="50">Resources </button>
             			<ul class="nav nav-pills justify-content-end flex-fill bd-highlight">
 
@@ -104,15 +111,16 @@
 			<br>
 			<br>
     			<div class="container-lg">
-				<p>Thank you for your interest in the Dell WINPresales program.
+				<p><font face="roboto">Thank you for your interest in the Dell WINPresales program.
             				We are constantly recruiting for new roles.
             				If you do not see a role that matches your career experience at this time,
             				we’d still like to consider you for future opportunities.
             				If you are interested in hearing from us please click
-            				<strong>
+            				<strong><font size="+2">
                 				<a href="https://dell.to/wise">here</a>.
-            				</strong>
-        			</p>
+            				</font></strong>
+        			</font></p>
+				<p><font face="roboto"><strong><span style="color: #3287c1;">Win Mission:</span></strong> As one of the world’s largest technology companies, Dell Technologies has the unique capability, and more importantly, the responsibility to transform lives. We can address some of the largest societal issues faced across the world with the intent to create a world that is equal and welcoming to all. In STEM careers, women are often underrepresented, with male counterparts dominating the industry. At WinPresales, the team is working to close that gender gap.</font></p>
         			<br>
         			<br>
         			<img class="img-fluid w-100" src="DAMResources\HowToExcell.png">
@@ -142,7 +150,7 @@
 		<div id="AboutTab" class="tabcontent">
 			<div class="container-lg">
 				<br>
-				<h1 style="color: #3287c1">Other Helpful Links</h1>
+				<h1 style="color: #3287c1">Helpful Links</h1>
 				<div class="row w-100"  style="width:33%; height: 100%;">
 					<div class="col-sm">
 						<br>
@@ -191,7 +199,7 @@
 					</div>
 					<div class="col-sm w-100">
 						<br>
-						<img class="img-fluid" src="DAMResources\RotatingCube.gif">
+						<img class="img-fluid" src="DAMResources\RotatingCube2.0.gif">
 					</div>
 				</div>
 			</div>
